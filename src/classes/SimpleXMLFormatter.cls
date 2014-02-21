@@ -2,10 +2,10 @@
  *  Formats the log in the following format:
  *  <?xml version="1.0" encoding="UTF-8"?>
  *  <logRecord>
- *    <level><<LEVEL>></level>
- *    <timestamp><<TIMESTAMP>></timestamp>
- *    <message><<MESSAGE>></message>
- *    [<exception><<EXCEPTION>></exception>]
+ *	<level><<LEVEL>></level>
+ *	<timestamp><<TIMESTAMP>></timestamp>
+ *	<message><<MESSAGE>></message>
+ *	[<exception><<EXCEPTION>></exception>]
  *  </logRecord>
  *  
  *	@author Glen Watson

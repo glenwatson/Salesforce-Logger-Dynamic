@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Configures the loggers to use under specific names. &apos;default&apos; is the default logger.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>HandlerProviderName__c</fullName>
+        <description>The name of the LoggingHandlerProvider__c</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the LoggingHandlerProvider__c custom setting to add to the Logger Name.</inlineHelpText>
+        <label>Handler Provider Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoggerName__c</fullName>
+        <description>The name of the logger.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the logger. Use &apos;default&apos; to configure the default logger.</inlineHelpText>
+        <label>Logger Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Logging Config</label>
+</CustomObject>

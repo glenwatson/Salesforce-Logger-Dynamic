@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>Configures classes that implement the &quot;LoggerManager.HandlerProvider&quot; interface. These classes must provide a no-arg constructor.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ClassName__c</fullName>
+        <description>The name of the provider class.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the provider class. e.g. MyClass</inlineHelpText>
+        <label>Class Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Namespace__c</fullName>
+        <description>The namespace of the provider.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The namespace of the provider. If none, leave it blank.</inlineHelpText>
+        <label>Namespace</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Logging Handler Provider</label>
+</CustomObject>
